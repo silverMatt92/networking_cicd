@@ -2,8 +2,8 @@ import os
 
 from netmiko import ConnectHandler
 
-user = os.getenv["USER"]
-password = os.getenv["MY_PASS"]
+user = os.getenv("USER")
+password = os.getenv("MY_PASS")
 
 iosv_l2_s1 = {
     "device_type": "cisco_ios",
