@@ -10,6 +10,7 @@ iosv_l2_s1 = {
     "ip": "192.168.77.134",
     "username": user,
     "password": password,
+    "port": 32769,
 }
 
 net_connect = ConnectHandler(**iosv_l2_s1)
